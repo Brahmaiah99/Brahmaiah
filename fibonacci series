@@ -1,0 +1,9 @@
+n = int(input("enter the number :"))
+first =0
+second =1
+for i in range (13):
+    print (first)
+    temp = first
+    first =second
+    second = temp+second
+
